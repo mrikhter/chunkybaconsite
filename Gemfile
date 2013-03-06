@@ -20,7 +20,9 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-# gem "twitter-bootstrap-rails"
+gem "twitter-bootstrap-rails"
+gem 'therubyracer'
+gem 'less-rails'
 # rails generate bootstrap:install static
 
 gem 'jquery-rails'

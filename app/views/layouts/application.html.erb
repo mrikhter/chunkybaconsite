@@ -9,19 +9,18 @@
 <body>
 
   <header>
-    <div class='logo'>
-      <%= link_to "ChunkyBaconCorp!", root_path %>
-    </div>
-    <ul id='nav'>
-      <li>
-        <%= link_to 'Orders', orders_path %>
-      </li>
-      </li>
-      <li>
-        <%= link_to '+ New Order', new_order_path %>
-      </li>
+    <div class="navbar">
+  <div class="navbar-inner">
+    <div class="brand"><%= link_to "ChunkyBaconCorp!", root_path %></div>
+    <ul class="nav">
+<!--       <li><#%= link_to 'About', about_path %></li>
+      <li><#%= link_to 'Contact', contact_path %></li>   -->          
+      <li><%= link_to '+ New Order', new_order_path %></li>
+      <li><%= link_to 'Orders', orders_path %></li>
     </ul>
-  </header>
+  </div>
+</div>
+</header>
 
   <div id='content'>
     <%= yield %>
