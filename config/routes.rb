@@ -10,7 +10,6 @@ ChunkyBaconCorp::Application.routes.draw do
 
   match 'about' => 'site#about'
 
-
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
