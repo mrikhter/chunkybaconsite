@@ -3,12 +3,12 @@ ChunkyBaconCorp::Application.routes.draw do
 
   resources :orders
   resources :customers
-  # resources :about
 
   root to: 'site#home'
 
   # match 'about' => 'about#index'
 
+  match 'about' => 'site#about'
 
 
   # The priority is based upon order of creation:
